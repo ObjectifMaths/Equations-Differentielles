@@ -5,14 +5,14 @@ import scipy.integrate as spig
 f=lambda y,t: 2/t*y-1
 y0=1.2
 
-# à droite de y0
+# à droite de t0
 T=np.linspace(1,2)
 Z=spig.odeint(f,y0,T)
 plt.plot(T,Z,'g-')
 plt.plot(T[0],y0,'go')
 xx,XX=min(T), max(T)
 
-# à gauche de y0
+# à gauche de t0
 T=np.linspace(1,-2)
 Z=spig.odeint(f,y0,T)
 plt.plot(T,Z,'g-')
