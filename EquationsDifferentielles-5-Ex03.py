@@ -23,11 +23,11 @@ for y0, col in zip(initd,pend):
 for y0, col in zip(initg,peng):
     # à gauche de -1
     T=np.linspace(-3,-1)
-    Z=spig.odeint(f,y0,T)
+    Z=spig.odeint(f,y0,T) 
     plt.plot(T,Z,col+'-')
 
 
-plt.title("$ (t+1)y'-3y=t^2$",fontsize=20)
+plt.title(r"$ (t+1)y'-3y=t^2$",fontsize=20)
 plt.ylim(-2,2) # limite l'axe des ordonnées
 
 # trace les axes

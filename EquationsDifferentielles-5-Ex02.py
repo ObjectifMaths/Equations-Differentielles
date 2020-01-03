@@ -23,7 +23,7 @@ for y0, col in zip(init,pen):
     plt.plot(T,Z,col+'-')
 
 
-plt.title("$ ty'-y=t^2$",fontsize=20)
+plt.title(r"$ ty'-y=t^2$",fontsize=20)
 plt.ylim(-1,2.5) # limite l'axe des ordonnées
 
 # trace les axes

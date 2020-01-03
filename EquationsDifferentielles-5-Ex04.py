@@ -20,7 +20,7 @@ for y0, col in zip(init,pen):
     
 
 
-plt.title("$ty'+(t-1)y=(2t-1)\exp(t)$",fontsize=20)
+plt.title(r"$ty'+(t-1)y=(2t-1)\exp(t)$",fontsize=20)
 plt.ylim(-10,8) # limite l'axe des ordonnées
 
 # trace les axes

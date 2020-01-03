@@ -18,7 +18,7 @@ Z=spig.odeint(f,y0,T)
 plt.plot(T,Z,'g-')
 
 
-plt.title("$ ty'-2y=-t \quad y({})={} $".format(T[0],y0),fontsize=20)
+plt.title(r"$ ty'-2y=-t \quad y({})={} $".format(T[0],y0),fontsize=20)
 plt.ylim(-1,2.5) # limite l'axe des ordonnées
 
 # trace les axes
