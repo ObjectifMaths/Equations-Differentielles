@@ -8,7 +8,7 @@ plt.rc('text.latex', preamble=r'\newcommand{\abs}[1]{\left\vert #1 \right\vert}'
 
 # on pose z=y' et Y=(y,z)
 # y=Y[0] et z=Y[1]
-f=lambda Y,x: ( Y[1] , Y[0]+Y[1]+3*np.exp(2*x) )
+f=lambda Y,x: ( Y[1] , Y[0]/2+Y[1]/2+3/2*np.exp(2*x) )
 
 
 
