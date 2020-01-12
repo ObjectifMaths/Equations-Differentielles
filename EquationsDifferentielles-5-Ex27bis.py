@@ -24,7 +24,6 @@ col=[(.5,.5,.5), (.8,.7,0)] # couleur des courbes définies avec les valeurs (re
 # avec l'expression des solutions
 T=np.linspace(xx,XX)
 for (K,L), col,LS in zip(ctes,col,LineStyle):
-    print(K,L,col,LS)
     Z=sol(T,K,L)
     plt.plot(T,Z,color=col,linestyle=LS, label=r"$\lambda={}$ et $\mu={}$".format(K,L))
 
