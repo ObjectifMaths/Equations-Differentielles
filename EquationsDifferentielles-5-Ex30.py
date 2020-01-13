@@ -17,7 +17,7 @@ plt.plot([0,0],[yy,YY],'k-', [xx,XX],[0,0],'k-')
 plt.axes().set_aspect('equal')
 
 LineStyle=['-', '--', '-', ':'] # style de ligne
-ctes=[-.5,.5,.25,0] # conditions initiales
+ctes=[-.5,.5,.25,0] # constantes d'intégrations
 col=[(.5,.5,.75), (.8,.4,1), (.5,.8,.9),(1,.5,.2)] # couleur des courbes définies avec les valeurs (red,green, blue)
 
 
