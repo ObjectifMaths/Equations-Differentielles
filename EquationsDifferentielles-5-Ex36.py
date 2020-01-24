@@ -17,11 +17,11 @@ xx,XX= -6, 3
 yy,YY=plt.ylim(-3,7) # limite l'axe des ordonnées
 plt.plot([0,0],[yy,YY],'k-', [xx,XX],[0,0],'k-')
 plt.axes().set_aspect('equal')
-
+ 
 
 ec=.1 # pour éviter la singularité en $0$
 # avec odeint sur R+*
-LineStylep=['-', '--', ':'] # style de ligne
+LineStylep=['-', '--'] # style de ligne
 CIp=[(1,1),(1,-2)] # conditions initiales
 colp=[(.8,.25,.15), (.2,.7,.2)] # couleur des courbes définies avec les valeurs (red,green, blue)
 for (x0,y0), col,LS in zip(CIp,colp,LineStylep):
