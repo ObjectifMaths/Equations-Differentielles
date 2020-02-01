@@ -9,6 +9,7 @@ f=lambda y,t: t+np.sin(y)**2
 T=np.linspace(0,2,10)
 Y=Euler(f, 0, T)
 plt.plot(T,Y,'r-', label=r"approchée")
+plt.plot(T,Y,'ro')
 
 # solution exacte
 # phi= ????? 
