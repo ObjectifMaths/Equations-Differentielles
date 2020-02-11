@@ -32,7 +32,7 @@ for K,col in zip(cteK,pen):
    plt.plot(T2,Z2, col+'-')
       
 
-plt.title(r"$t^2(1+t^2)y'(t)-(1+t)y(t)=t^4-t$",fontsize=20)
+plt.title(r"$ty'(t)+y(t)= \frac{2t}{\sqrt{1+t^2}}$",fontsize=15)
 plt.xlabel(r"$t\mapsto \frac{K+2\sqrt{1+t^2}}{t}$")
 plt.grid()
 plt.legend()
